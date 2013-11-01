@@ -1,12 +1,12 @@
 .. highlight:: bash
 
-39A
+RHoK Web 3
 ============
-39A is the software used to power the `2013 International Space Apps Challenge`_, a global hackathon focusing on space technology and issues.
+RHoK Web 3 is the software used to power the new Random Hacks of Kindness website.
 
 Documentation can be found in the docs directory.  Installation documentation is reproduced here for convenience.
 
-.. _2013 International Space Apps Challenge: http://spaceappschallenge.org
+.. _2013 International Space Apps Challenge: http://rhok.org
 
 Installation
 ============
@@ -14,7 +14,7 @@ Installation
 Prerequisites
 -------------
 
-39A requires the following software prior to installation:
+RHoK Web 3 requires the following software prior to installation:
 
 * git
 * virtualenv
@@ -54,7 +54,7 @@ In your home directory or another location of your choosing::
 Activate Environment
 --------------------
 
-To work with 39A, you must activate the appropriate virtual environment (per terminal environment).  To do so, open a terminal::
+To work with RHoK Web 3, you must activate the appropriate virtual environment (per terminal environment).  To do so, open a terminal::
 
 	$ source ~/.virtualenvs/39A/bin/activate
 	$ export SECRET_KEY="insert-random-complex-key"
