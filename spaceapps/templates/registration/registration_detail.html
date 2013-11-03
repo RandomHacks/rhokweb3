@@ -58,8 +58,8 @@
 							Space Apps Challenge {% if object.location.city %}{{ object.location.city }}{% endif %}
 							{% if object.location.start %}<br>{{ object.location.start }}{% endif %}{% if object.location.end %} - {{ object.location.end }}{% endif %}
 							<div class="editreg">
-								<a href="{% url 'registration:edit' %}" class="button">Change Location</a>
-								<a href="{% url 'registration:delete' %}" class="button">Cancel Registration</a>
+								<a href="{% url 'registration:edit' %}" class="button" role="button">Change Location</a>
+								<a href="{% url 'registration:delete' %}" class="button" role="button">Cancel Registration</a>
 							</div>
 						</div>
 					</div>
